@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power clean</title>
+  <link href="CSS/bootstrap.CSS" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/admin.CSS">
+  <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+        <div class="position-sticky">
+          <ul class="nav flex-column">
+            <h3 class="text-center">Power clean</h3>
+            <img src="IMG/icono2.png" alt="" width="50%" class="mx-auto">
+            <br>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="aindex.HTML">
+                <span data-feather="home"></span>
+                Inicio
+              </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="aproductos.HTML">
+                <span data-feather="shopping-cart"></span>
+                Productos
+              </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="ausuarios.HTML">
+                <span data-feather="users"></span>
+                Usuarios
+              </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="aventas.HTML">
+                <span data-feather="shopping-bag"></span>
+                Ventas
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="arriba" class=" col-md-9 ms-sm-auto col-lg-10 px-md-4 d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Inicio</h1>
+        <div class="btn-toolbar mb-2 mb-md-0">
+          <div class="btn-group me-2">
+          </div>
+          <a class="btn btn-outline-danger" href="index.HTML" role="button">SALIR</a>
+        </div>
+      </div>
+
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <div class="row">
+          <div class="col-lg-12 animate__animated animate__backInDown">
+            <h3 class="text-center">Ventas mensuales</h3>
+            <div id="chartdiv1"></div>
+          </div>
+        </div>
+        <h3>Bienvenido al Panel Administrativo de Power Clean</h3>   
+        <br>
+        <p>Nos complace darte la bienvenida a la plataforma de gestión de Power Clean.</p>
+        <p>Nuestro objetivo es ofrecerte las herramientas necesarias para optimizar tu tiempo y mejorar la calidad del servicio que ofrecemos a nuestros clientes. Si necesitas ayuda o tienes alguna pregunta, no dudes en contactar con nuestro equipo de soporte. </p>
+        <p>Este panel está diseñado para facilitar la administración eficiente de nuestros servicios de limpieza. Aquí podrás gestionar las solicitudes de limpieza, controlar el inventario de suministros, asignar tareas al equipo y mucho más.</p>
+        <p>Gracias por ser parte de CleanMaster y por ayudarnos a mantener los espacios limpios y ordenados.</p>
+        
+      </main>
+    </div>
+  </div>
+
+  <script src="JS/bootstrap.JS"></script>
+  <script src="JS/charts.JS"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>
