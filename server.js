@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const client = new Client({
     host: 'localhost',
-    database: 'POWERCLEAN',
+    database: 'powerclean',
     user: 'postgres',
     password: 'kevin11',
     port: 5432
