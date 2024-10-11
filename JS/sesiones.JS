@@ -21,6 +21,12 @@ $(document).ready(function() {
         last_name: "Luna", 
         email: "luna@gmail.com", 
         password: "12345" 
+    },
+      { id: 5, 
+        first_name: "Abigail", 
+        last_name: "Mejia", 
+        email: "abi@gmail.com", 
+        password: "12345" 
     }
     ];
 
