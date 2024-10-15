@@ -1,0 +1,20 @@
+{
+  "name": "powerclean",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "espress": "^0.0.0",
+    "express": "^4.20.0",
+    "express-validator": "^7.2.0",
+    "pg": "^8.12.0",
+    "xlsx": "^0.18.5"
+  }
+}
